@@ -1,0 +1,213 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Dec 3, 2023, 4:51:43 PM
+    by openai
+    Author     : hp
+LEFT HOOKERS GREEN #49796B;
+RIGHT LAUREL GREEN #A9BA9D
+
+CAMBRIDGE BLUE (LIGHT GREEN)) #bed1c3
+
+https://icolorpalette.com/color/fff9e4
+
+MAGNOLIA #f1f1f1
+fcf7e6
+f4f3ee
+f8f5ea
+*/
+
+/* Grid Layout */
+
+/*  grid-template-columns: repeat(3, 1fr);      
+border-color: green;
+outline-color: #bed1c3;
+
+
+*/
+
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 2.4fr 1fr;
+    gap: 0px;
+}
+
+.left-column {
+    background-color: #bed1c3;
+    
+    border: 10px solid #f8f5ea;  
+    
+    border-radius:20px;
+}
+
+.central-column {
+    background-color: #f8f5ea;
+    
+    border: 10px solid #f8f5ea;  
+    
+    border-radius:20px;
+}
+
+.right-column {
+    background-color: #bed1c3;
+    
+    border: 10px solid #f8f5ea;  
+    
+    border-radius:20px;
+}
+
+/* Header */
+header {
+    background-color: #efefef;
+    padding: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    
+    border: 10px solid #f8f5ea;  
+    outline: 3px solid #bed1c3;
+    border-radius:20px;
+}
+
+.logo img {
+    width: 40px;
+}
+
+.menu li {
+    display: inline-block;
+    margin-right: 15px;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 100px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+/* Tabs */
+.tabs {
+    margin-top: 50px;
+}
+
+.tab-header {
+    display: flex;
+    list-style-type: none;
+    padding: 0;
+}
+
+.tab-header li {
+    padding: 10px 15px;
+    background-color: #f2f2f2;
+    cursor: pointer;
+}
+
+.tab-header .active {
+    background-color: #ccc;
+}
+
+.tab-panel {
+    display: none;
+    padding: 20px;
+}
+
+.tab-panel.active {
+    display: block;
+}
+
+/* Footer */
+footer {
+    background-color: #efefef;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    border: 10px solid #f8f5ea;  
+    outline: 3px solid #bed1c3;
+    border-radius:20px;
+    
+}
+
+.contact p {
+    margin: 0;
+}
+
+.social-media ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.social-media li {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+/* Other styles */
+h2 {
+    margin-top: 0;
+}
+
+ul li {
+    list-style-type: none;
+    margin-bottom: 10px;
+}
+
+
+.margin1{
+    
+       
+    padding-bottom: 20px;
+    padding-left: 60px;
+    padding-right: 60px;
+    
+}
+
+
+
+.margin2{
+    
+       
+    padding-bottom: 20px;
+    padding-left: 60px;
+    padding-right: 60px;
+    
+}
+
+#set1{
+    
+    color:black;
+    text-align: left;
+    padding-top: 30px;
+    
+    
+}
+
+#set2{
+    
+    color:black;
+    text-align: left;
+    padding-top: 30px;
+    
+    
+}
+
+#set3{
+    
+    color:black;
+    text-align: left;
+    padding-top: 30px;
+    
+    
+}
